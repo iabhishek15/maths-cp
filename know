@@ -1,1 +1,21 @@
+SOME IMPORTANT SERIES EXPANSION
+  1) (1 + x) ^ n (https://undergroundmathematics.org/counting-and-binomials/r6295/solution)
 
+
+IMPORTANT POINT
+* finding primitive root
+* finding primitive root of prime number  = https://math.stackexchange.com/questions/124408/finding-a-primitive-root-of-a-prime-number
+* (a + b - 1) / b (for ceil function)
+*  when multiplying if the value can be near about 10^18 make sure to divide since overflow can cause the problem (while multiplying)
+
+
+EXTENDED EUCLID ALGORITHM
+(a + b * x) % n == 0
+not include the case when a % n == 0, making the new equation 
+(b * x) % n == y 
+condition gcd(b, n) = 1, we can get answer by extended euclid algorithm (ax + by = gcd(a, b)) 
+link of the post = http://rachitiitr.blogspot.com/2016/12/solving-linear-congruences-ax-equiv-b.html
+
+
+Solving Linear Congruences
+ http://rachitiitr.blogspot.com/2016/12/solving-linear-congruences-ax-equiv-b.html
