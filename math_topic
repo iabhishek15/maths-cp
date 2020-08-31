@@ -1,0 +1,79 @@
+maths topic
+1) FFT (fast fourier tranform)
+2) legendre's formula (de Polignac's formula)
+3) Gauss method for solving for system of linear equation
+4) matrix exponentation
+5) binary exponentation
+6) Multinomial theorem    https://en.wikipedia.org/wiki/Multinomial_theorem
+7) large fibonacii number(x)
+8) Gaussian elimination
+9) pigeon hole principal
+10) pascal triangle
+11) catalin number
+12) Fermat’s Little Theorem:
+13) Euclid Euler Theorem
+14) Matroid Intersection
+15) knight move
+16) inclusion-exculsion principle 
+17) stars and bars  
+18) expected value
+19) multiindices
+20) tuple
+21) counting multiset
+22) Modular multiplicative inverse
+23) Sieve of Eratosthenes (x)
+    segmented-seive(x)
+24) multiset coefficient or multiset number
+25) Bijection (one to one correspondense)
+26) Lucas Theorem
+27) Goldbach's conjecture (less than 4 × 10^18)
+    Goldbach number
+    Goldbach partition of that number
+28) Calkin–Wilf tree
+29) Stern’s Diatomic Series
+30) Partition (number theory)
+31) prime number theorem (PNT) {lcm(1,2,3,4...,n} = e^n}
+32) cardinality {number of primes present in factors of number n is log(n) here base is 2}{2,3,5 => 2^3 - 1}
+33) Derangements
+34) Fermat primality test {a^(p - 1) % m != 1 then composite else if can be prime(not sure)}
+35) Fermit last theoram (fermit conjecture) {states that no three positive integers a, b, and c satisfy the equation a^n + b^n = c^n 
+for any integer value of n greater than 2. The cases n = 1 and n = 2 have been known since antiquity to have infinitely many solutions}
+36) Modularity theorem (proved fermit last theoram Andrew Wiles )
+37) bell number
+38) Lucas Theorem
+39) Wilson's Theorem (Natural number N is a prime number if and only if (N - 1)! + 1 is divisible by N)
+40) Pythagorean triple
+41) Modular arithmetic (https://www.hackerearth.com/practice/notes/powerful-tricks-with-calculation-modulo/)
+42)Euler's totient function
+43) chinese remainder theoram ( Garner's Algorithm )
+44) combinatorics
+    -> Hockey-Stick Identity 
+        property 1 and property 2
+    -> Vandermonde's Identity
+    -> Kummer's theorem
+    -> pascal identity
+45) Hat-Check Problem
+46) lemma
+47) summation 
+    ->Faulhaber's formula
+    -> Bernoulli number
+    -> Falling and rising factorials
+48) harmonic function
+49) taylor series (if a == 0 then it is called Maclaurin Series) //https://study.com/academy/lesson/taylor-series-definition-formula-examples.htm
+50) Lagrange interpolation
+51) Lambda calculus
+52) Generating function
+53) Bijective proof
+54) if a1 ^ a2 ^ a3 ^ a4 ^ a5 => 0 then XOR[a1,a1] = XOR[a2,a5] , XOR[a1,a2] == XOR[a3,a5] , XOR{a1,a4,a3} = XOR{a2,a5}
+XOR[a1,a3] == XOR[a4,a5],  XOR[a1,a4] == XOR[a5,a5] or we can say that we can divide the segment into two group
+and both will have same xor value
+55)Meissel-Lehmer Algorithm //https://acgan.sh/posts/2016-12-23-prime-counting.html //O(n^{2/3}).
+56)Pythagorus theroam is in favourite comment on codeforces
+57) Segment Sieve of Eratosthenes plus Wheel Factorization 
+58)MILLER RABIN PROBABILISTIC PRIMALITY ALGORITHM
+59)Pollard-rho algorithm
+60) Primality Test (Solovay-Strassen)
+61) Wheel Factorization Algorithm 
+http://norvig.com/21-days.html
+62) Solovay–Strassen primality test
+63) Number of digits in N factorial to the power N
