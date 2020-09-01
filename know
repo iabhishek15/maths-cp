@@ -3,8 +3,6 @@ SOME IMPORTANT SERIES EXPANSION
 
 
 IMPORTANT POINT
-* finding primitive root
-* finding primitive root of prime number  = https://math.stackexchange.com/questions/124408/finding-a-primitive-root-of-a-prime-number
 * (a + b - 1) / b (for ceil function)
 *  when multiplying if the value can be near about 10^18 make sure to divide since overflow can cause the problem (while multiplying)
 
@@ -19,3 +17,71 @@ link of the post = http://rachitiitr.blogspot.com/2016/12/solving-linear-congrue
 
 Solving Linear Congruences
  http://rachitiitr.blogspot.com/2016/12/solving-linear-congruences-ax-equiv-b.html
+
+PRIMITIVE NUMBERS
+* finding primitive root
+* finding primitive root of prime number  = https://math.stackexchange.com/questions/124408/finding-a-primitive-root-of-a-prime-number
+premitive numbers are numbers which have all remaindres less than p - 1 (here p is prime) when raised to [0, p - 2] power
+How do we calcuate primitve number 
+calculating number of primitive prime is just phie(phie(p)) {here phie is eulor totient to get the number of coprime with the number}
+so value is phie(p - 1) since p i prime
+for example 13 so p - 1 = 12 phie(12) (we will use prime) so phie(12) = (12) (1 - 1/2) (1 - 1/ 3) = 4
+so there are 4 coprime numbers with 12 which are 1 3 7 11 , if we can get minimum primitive number we can raise this so power of
+1 3 7 11 and take modulo ,with we will get the other primitive primes.
+how to calculate minimum primitive prime ??
+one ways if we raise every number power of 12 divided by all its factors and if we do not get the remainder 1 while taking mod with p then 
+it is primitive root
+12 / 2 = 6, 12 / 3 = 4, 12 / 4 = 3 (remainder 1)
+12 = 2 * 3 * 4 * 6 /// 3^6 % p , 3 ^ 4 % p, 3 ^ 3 % p (iterate over 1 to 151 and check the values for this condition)
+(may be we can get larger value than 151 when checking values less than 10^9)
+
+
+BINOMIAL 
+we can solve movement in grid (right or down with binomial coefficient) {n rows m col so choose(m + n, n) 
+we have to move n steps to rigth and m steps down so we out of m + n steps we can choose any n steps to be right and rest to be 
+down.
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
