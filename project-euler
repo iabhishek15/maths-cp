@@ -1,1 +1,33 @@
 
+ PROBLEM 1 -> Multiples of 3 and 5 (EASY)
+ ques : we have to calculate sum of multiples of 3 & 5
+ sol : use inclusion-exculison principle and (n * (n + 1)) / 2 by taking 5, 3, 15 as common.(AP can also be used to get the sum)
+ 
+ PROBLEM 2 ->  Even Fibonacci numbers (EASY)
+ ques even fibonaci number less than n 
+ sol : generate all the fib less than max_value and just check the answer by iterating over values in fib
+ 
+ PROBLEM 3 -> Largest prime factor (EASY)
+ ques : largest prime factor of a number
+ sol : just check all the prime factors and take the largest one
+ 
+ PROBLEM 4 -> Largest palindrome product (EASY)
+ ques : check for palidrome less than n made by multiplying two 3 digits numbers
+ sol : just brute force and store all the palidromes made from multiplication of two three digit number and for each query check the array 
+  
+ PROBLEM 5 ->  Smallest multiple (MEDIUM)
+ ques : number which remainder 0 when divided from 1 to n
+ sol : just get all the primes (between 1 to n) and for each values check the max number of times they occur
+ then (ans = ans + prime * max_times_prime_occurs in a number)
+ 
+ PROBELEM 6 -> Sum square difference (EASY)
+ ques : (a1 + a2 + a3 + ... + an) ^ 2 - (a1 *a1 + a2 * a2 + a3 * a3 + ... + an * an)
+ sol : just generate all the value till max_n and answer the query in O(1) time (sum ^ 2 = ((n * (n + 1)) / 2) ^ 2)
+ 
+ PROBLEM 7 -> 10001st prime (EASY)
+ ques : nth prime
+ sol : just generate all prime less than max_val (using sieve of eratosthenes) and answer query in O(1) time.
+ 
+ PROBLEM 8 -> Largest product in a series (EASY)
+ ques : max product of length k in a number(n)
+ sol : just do what is asked
