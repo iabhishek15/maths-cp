@@ -17,7 +17,7 @@
   
  PROBLEM 5 ->  Smallest multiple (MEDIUM)
  ques : number which remainder 0 when divided from 1 to n
- sol : just get all the primes (between 1 to n) and for each values check the max number of times they occur
+ sol : just get all the primes (between 1 to n using sieve of eratosthenes)  and for each values check the max number of times they occur
  then (ans = ans + prime * max_times_prime_occurs in a number)
  
  PROBELEM 6 -> Sum square difference (EASY)
@@ -31,3 +31,98 @@
  PROBLEM 8 -> Largest product in a series (EASY)
  ques : max product of length k in a number(n)
  sol : just do what is asked
+
+ PROBLEM 9 -> Special Pythagorean triplet (EASY)
+ ques : checking for pythagorus triplet which have sum equal to n (if exist then max product else -1)
+ sol : iterate from 1 to n for i and j and get the third value by sqrt(b * b - a * b) || sqrt(b * b + a * a) and then update the array 
+ with sum as index with product as value (here b > a) 
+ 
+ PROBLEM 10 ->  Summation of primes (EASY)
+ ques : sum of primes less than or equal to n
+ sol : just generate all the prime till n using sieve of eratosthenes and make a array prefix sum to ans the query in O(1) time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
