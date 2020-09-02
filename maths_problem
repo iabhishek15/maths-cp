@@ -1,8 +1,11 @@
+GOOD USE OF QUEUE
+     -> https://www.hackerrank.com/challenges/special-multiple/problem
+
 SIMPLE ODD AND EVEN 
 Even Odd Query - https://www.hackerrank.com/challenges/even-odd-query/problem
 
 IMPORTANT POINT
-* finding primitive root
+* finding the primitive root
       -> https://www.hackerrank.com/challenges/primitive-problem/problem
 *  when multiplying if the value can be near about 10^18 make sure to divide since overflow can cause the problem (while multiplying)
       -> https://www.hackerrank.com/challenges/leonardo-and-prime/problem (max number of prime)
@@ -14,7 +17,7 @@ IMPORTANT POINT
         (make sure to initialize the pair correctly(ans), look for overflow, look for negative value)
          
  ********WHEN THE VALUE OF MOD is greater than 10^9 
-        was used in primarity testing
+        was used in primality testing
       -> https://www.spoj.com/problems/PON/ (prime or not)
  
  **********GCD
