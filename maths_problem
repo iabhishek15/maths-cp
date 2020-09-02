@@ -6,6 +6,7 @@ SIMPLE ODD AND EVEN
 Even Odd Query - https://www.hackerrank.com/challenges/even-odd-query/problem
 
 IMPORTANT POINT
+* use pascal's triangle when mod is not prime and n <= 5000
 * finding the primitive root
       -> https://www.hackerrank.com/challenges/primitive-problem/problem
 *  when multiplying if the value can be near about 10^18 make sure to divide since overflow can cause the problem (while multiplying)
